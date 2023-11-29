@@ -2,6 +2,11 @@
 	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.navbar{
+	padding: 0.1% !important;
+	font-size: small !important
+}
+
 .nannainfo{
 	background-color: gray;
 	display: flex;
