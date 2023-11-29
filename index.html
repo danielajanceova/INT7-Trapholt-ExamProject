@@ -19,30 +19,120 @@
 
 
       <header>
-        <nav>
-          <p>this is a navbar</p>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Trapholt Museum</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link" href="#">Features</a>
+                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+              </ul>
+              <span class="navbar-text">
+                <a href="tickets.html">
+                  <button type="button" class="btn btn-success" >Buy Tickets</button>
+                </a>
+              </span>
+            </div>
+          </div>
         </nav>
 
       </header>
 
 
       <main>
-        <div class="maincontent">
-          <div class="carousel">
-            <p>this is the picture carousel</p>
-          </div>
 
-          <div class="eventcards">
-            <p>this will contain event cards</p>
+        <!-- CAROUSEL STUFF -->
+
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/Finnish-Lapphund-puppies-sitting-side-by-side-outdoors.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/Snowy-owl-Frost.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Some representative placeholder content for the second slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/istockphoto-1268135463-612x612.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!-- EVENT CARD STUFF -->
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 eventcards">
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/DigitalArt.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Digital Art class</h5>
+                <p class="card-text">Come to our digital art class at the museum! Free if you have a museum ticket!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/DigitalDrawing.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Digital drawing course</h5>
+                <p class="card-text">Always wanted to try digital drawing? That's possible now! Come to the free digital drawing course at the museum</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/MixedArt.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Why not both?</h5>
+                <p class="card-text">Time to learn both of them! Now free if you have a museum ticket.</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
           <div class="nannainfo">
-            <p>this will contain a picture of nanna</p>
-            <p>with some text about her</p>
+            <img src="images/nanna-ditzel-portraet.jpg" alt="Nanna Ditzel" class=" nannaimage">
+            <p class="nannatext">A leading female figure in the history of Danish Design, Nanna Ditzel was not only strikingly ambitious, 
+              but progressive and forward-looking for her time</p>
           </div>
 
           <div class="shop">
-            <p>shop!</p>
+            <img src="images/eshop.png" alt="">
+            <button type="button" class="btn btn-outline-primary"><a href="merchshop.html">Primary</a></button>
           </div>
        </div>
 
@@ -50,29 +140,143 @@
 
     
 
-      <footer>
-        <div class="footercontent">
-          <div class="logoimage">
-            <p>this will have the logo</p>
-          </div>
-
-          <div class="locationinfo">
-            <p>this will have the location info</p>
-          </div>
-
-          <div class="customerservice">
-            <p>info with about us page, contact info, visitors hours, link to cafeteria information</p>
-          </div>
-
-          <div class="eshop">
-            <p>merch and buy a ticket pages</p>
-          </div>
-
-          <div class="footersocials">
-            <p>links to social media</p>
-          </div>
-
+    <!-- Footer -->
+    <footer
+            class="text-center text-lg-start text-white"
+            style="background-color: #a3a3a3"
+            >
+      <!-- Section: Social media -->
+      <section
+              class="d-flex justify-content-between p-4"
+              style="background-color: #7d7d7d"
+              >
+        <!-- Left -->
+        <div class="me-5">
+          <span>Get connected with us on social networks:</span>
         </div>
-      </footer>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="https://www.instagram.com/trapholtkunstmuseum/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" class="text-white me-4">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold">Company name</h6>
+              <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #5e5e5e; height: 2px"
+                  />
+              <p>
+                Here you can use rows and columns to organize your footer
+                content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Customer Service</h6>
+              <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                  />
+              <p>
+                <a href="aboutus.html" class="text-white">About Us</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Contact</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Events</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Visitor Hours</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Cafeteria Information</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">E-Shop</h6>
+              <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                  />
+              <p>
+                <a href="mer" class="text-white">Merch</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Buy a ticket</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Contact</h6>
+              <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                  />
+              <p><i class="fas fa-home mr-3"></i> Æblehaven 23, DK-6000 Kolding</p>
+              <p><i class="fas fa-envelope mr-3"></i> kunstmuseum@trapholt.dk</p>
+              <p><i class="fas fa-phone mr-3"></i> +45 76 30 05 30</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div
+          class="text-center p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+          >
+        © 2023 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/"
+          >MDBootstrap.com</a
+          >
+      </div>
+      <!-- Copyright -->
+    </footer>
+        </footer>
   </body>
 </html>

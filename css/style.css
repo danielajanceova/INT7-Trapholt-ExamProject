@@ -1,0 +1,22 @@
+.nannainfo{
+	background-color: gray;
+	display: flex;
+	padding: 5%;
+}
+
+.nannaimage{
+	width: 25%;
+	height: auto;
+	padding: 20px;
+}
+.nannatext{
+	background-color: rgb(101, 101, 101);
+	text-align: left;
+	padding: 5%;
+}
+
+
+.eventcards{
+	background-color: rgb(103, 103, 103);
+	padding: 5%;
+}
