@@ -17,6 +17,16 @@
 	color: white !important;
 }
 
+.deviderline{
+	text-align: center;
+}
+
+.deviderlineimg{
+	max-width: 80%;
+	height: auto;
+	margin: 3%;
+}
+
 .nannainfo{
 	background-color: gray;
 	display: flex;
@@ -24,7 +34,7 @@
 }
 
 .nannaimage{
-	width: 25%;
+	max-width: auto;
 	height: auto;
 	padding: 20px;
 }
@@ -52,4 +62,9 @@
 .ticketcard{
 	display: flex !important;
 	justify-content: space-between;
+}
+
+.footerimg{
+	max-width: 80%;
+	height: auto;
 }
