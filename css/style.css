@@ -4,7 +4,17 @@
 
 .navbar{
 	padding: 0.1% !important;
-	font-size: small !important
+	font-size: small !important;
+	background-color: #B41F27 !important;
+
+}
+
+.navbar-brand{
+	color: white !important;
+}
+
+.nav-link{
+	color: white !important;
 }
 
 .nannainfo{
@@ -26,6 +36,20 @@
 
 
 .eventcards{
-	background-color: rgb(103, 103, 103);
+	background-color: #fecf9a6f;
 	padding: 5%;
+}
+
+.cardcolums{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.card{
+	margin-bottom: 10% !important;
+	
+}
+.ticketcard{
+	display: flex !important;
+	justify-content: space-between;
 }
