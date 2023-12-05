@@ -7,8 +7,7 @@
 .navbar{
 	padding: 0.1% !important;
 	font-size: small !important;
-	background-color: #b41f26da !important;
-
+	background-color: #B41F27da !important;
 }
 
 .navbar-brand{
@@ -19,7 +18,9 @@
 	color: white !important;
 }
 
-
+.navhelp{
+	padding-top: 5%;
+}
 
 /* HOME PAGE */
 
@@ -86,8 +87,7 @@
 
 .museumheader{
 	padding: 1%;
-
-
+	text-align: center;
 }
 
 .aboutmuseumtext{
