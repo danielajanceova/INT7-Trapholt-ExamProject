@@ -25,16 +25,17 @@
 
 .deviderline{
 	text-align: center;
+	margin-top: -5%;
 }
 
 .deviderlineimg{
 	max-width: 80%;
 	height: auto;
-	margin-bottom: 3%;
+	/* margin-bottom: 3%; */
 }
 
 .nannainfo{
-	background-color: #fecf9a6f;
+	/* background-color: #fecf9a6f; */
 	display: flex;
 	align-items: center;
 	padding: 3%;
@@ -56,7 +57,7 @@
 /* TICKET PAGE */
 
 .eventcards{
-	background-color: #fecf9a6f;
+	/* background-color: #fecf9a6f; */
 	padding: 5%;
 }
 
@@ -71,7 +72,7 @@
 }
 
 .card{
-	margin-bottom: 10% !important;
+	/* margin-bottom: 10% !important; */
 	
 }
 .ticketcard{
@@ -85,7 +86,7 @@
 
 .museumheader{
 	padding: 1%;
-	
+
 
 }
 
