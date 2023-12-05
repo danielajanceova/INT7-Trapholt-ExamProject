@@ -2,6 +2,8 @@
 	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* NAV BAR */
+
 .navbar{
 	padding: 0.1% !important;
 	font-size: small !important;
@@ -16,6 +18,10 @@
 .nav-link{
 	color: white !important;
 }
+
+
+
+/* HOME PAGE */
 
 .deviderline{
 	text-align: center;
@@ -46,10 +52,12 @@
 }
 
 
+
+/* TICKET PAGE */
+
 .eventcards{
 	background-color: #fecf9a6f;
 	padding: 5%;
-
 }
 
 .ticketheader{
@@ -71,6 +79,32 @@
 	justify-content: space-between;
 }
 
+
+/* ABOUT PAGE */
+
+
+.museumheader{
+	padding: 1%;
+	
+
+}
+
+.aboutmuseumtext{
+
+	padding: 4%;
+}
+
+.aboutimg{
+	max-width: 25%;
+	height: auto;
+}
+
+.aboutmuseumlist{
+	padding: 5%;
+}
+
+
+/* FOOTER */
 
 .footerimg{
 	max-width: 80%;
