@@ -22,6 +22,16 @@
 	padding-top: 5%;
 }
 
+.ticketbtn{
+	background-color: #323C98;
+	color: white;
+}
+
+.ticketbtn:hover {
+	background-color: #252d73;
+	color: white;
+  }
+
 /* HOME PAGE */
 
 .deviderline{
@@ -87,24 +97,71 @@
 
 .museumheader{
 	padding: 1%;
-	text-align: center;
+	text-align:left
+}
+
+.section1{
+	display: flex;
+	align-items: center;
 }
 
 .aboutmuseumtext{
-
-	padding: 4%;
+	padding: 1%;
 }
 
 .aboutimg{
-	max-width: 25%;
+	max-width: 15%;
 	height: auto;
+	margin-right: 1%;
 }
 
+.section2{
+	display: flex;
+}
+
+.aboutnannaimg{
+	max-width: 25%;
+	height: auto;
+	margin-left: 1%;
+}
 .aboutmuseumlist{
 	padding: 5%;
 }
 
 
+/* VISITORS HOURS */
+
+.visitors{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.visitorshours ul{
+	list-style-type: none;
+}
+
+.specialopening ul{
+	list-style-type: none;
+}
+
+/* CAFE INFO */
+
+.cafeinfo{
+	display: flex;
+	align-items: center;
+}
+
+.cafeimg{
+	max-width: 50%;
+	height: auto;
+}
+.cafeinfo1{
+	padding: 2%;
+}
+
+.cafeinfo2{
+	padding: 1%;
+}
 /* FOOTER */
 
 .footerimg{

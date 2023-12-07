@@ -7,8 +7,9 @@
     <link rel="icon" type="image/x-icon" href="/images/Logo3.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-      <link rel="stylesheet" href="css/style.css">
-  </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
 
   <body class="navhelp">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
@@ -18,8 +19,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" 
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 
-
-      <header>
+    <header>
         <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary ">
           <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Trapholt Museum</a>
@@ -40,7 +40,7 @@
               </ul>
               <span class="navbar-text">
                 <a href="tickets.html">
-                  <button type="button" class="btn btn-success" >Buy Tickets</button>
+                  <button type="button" class="btn ticketbtn" >Buy Tickets</button>
                 </a>
               </span>
             </div>
@@ -49,18 +49,24 @@
 
       </header>
 
+
   <main>
     <p class="h1 museumheader">About The Museum</p>
 		<div class="aboutmuseum row row-cols-2">
-			<p class="aboutmuseumtext col-8">
-        
-        Trapholt is a museum that focuses on modern Danish art, design, and applied arts. The museum's name "Trapholt" is a combination of "trap" (stairs) and "holt" (a small wood). 
-        The museum building itself is known for its distinctive architecture and beautiful surroundings.
+      <div class="section1 col-12">
+        <p class="aboutmuseumtext ">
+          
+          Trapholt is a museum that focuses on modern Danish art, design, and applied arts. The museum's name "Trapholt" is a combination of "trap" (stairs) and "holt" (a small wood). 
+          The museum building itself is known for its distinctive architecture and beautiful surroundings.
 
-        Key features of the Trapholt Art Museum include:
-			</p>
-      <img src="images/placeholderart.jpg" class="rounded col aboutimg" alt="..." >
-      <ol class="aboutmuseumlist col-12 ">
+          Key features of the Trapholt Art Museum include:
+        </p>
+        <img src="images/placeholderart.jpg" class="rounded col aboutimg" alt="..." >
+     </div>
+
+     <div class="section2 col-12"> 
+      <img src="images/nanna-ditzel-chairjpg.jpeg" class="rounded col aboutnannaimg" alt="..." >
+      <ol class="aboutmuseumlist  ">
         <li>Art Collection: Trapholt features a diverse collection of Danish visual arts from the 1900s to the present day. 
           This includes paintings, sculptures, and other forms of visual expression.</li>
         <li>Design and Applied Arts: The museum also places a strong emphasis on design and applied arts, showcasing pieces that highlight the evolution of Danish design over the years.</li>
@@ -69,9 +75,56 @@
         <li>Events and Activities: The museum may organize events, workshops, and educational programs to engage visitors of all ages and backgrounds.</li>
       </ol>
 
-		</div>
+    </div>
+	</div>
 
-		<h1>Cafeteria Information</h1>
+  <div class="deviderline">
+    <img src="images/DeviderLine.png" alt="" class="deviderlineimg">
+  </div>
+
+  <p class="h1 museumheader">Visitors Hours</p>
+  <div class="visitors">
+    <div class="visitorshours">
+      <p class="fw-bold">Opening hours:</p>
+      <ul>
+        <li>Monday closed</li>
+        <li>Tuesday 10 a.m. – 5 p.m</li>
+        <li>Wednesday 10 a.m. – 9 p.m</li>
+        <li>Thursday 10 a.m. – 5 p.m</li>
+        <li>Friday 10 a.m. – 5 p.m</li>
+        <li>Saturday 10 a.m. – 5 p.m</li>
+        <li>Sunday 10 a.m. – 5 p.m</li>
+      </ul>
+   </div>
+
+   <div class="specialopening">
+      <p class="fw-bold">Special open days:</p>
+      <ul>
+        <li>Monday in week 7 and 42 at 10-17</li>
+        <li>Skærtorsdag and Good Friday</li>
+        <li>2nd Easter Sunday and 2nd Whitsunday</li>
+        <li>Day of prayer and Ascension Day</li>
+        <li>2nd Christmas Day</li>
+      </ul>
+   </div>
+  </div>
+
+  <div class="deviderline">
+    <img src="images/DeviderLine.png" alt="" class="deviderlineimg">
+  </div>
+
+  <p class="h1 museumheader">Cafeteria Information</p>
+  <div class="cafeinfo row row-cols-2">
+      <p class="cafeinfo1 col-7">Visit the Trapholt café to enjoy spectacular views of Kolding Fjord, a delicious meal or just a cup of coffee. 
+      The Trapholt design shop carries a wide range of specially selected interior design objects from well-known Danish and international brands. 
+      Everything has been  handpicked for its distinctive aesthetics and quality, offering unique choice. </p>
+      
+      <img class="cafeimg col-5" src="images/Trapholt cafe.jpg" alt="">
+  </div>
+
+  <p class="cafeinfo2 fw-bold">
+    Free parking for cars and buses is available right by the door. 
+    Accessibility, including wheelchair access, is a major focus for Trapholt. </p>
 
 
   </main>
@@ -81,7 +134,7 @@
     <!-- Footer from https://mdbootstrap.com/docs/standard/navigation/footer/examples-and-customization/ -->
     <footer
             class="text-center text-lg-start text-black"
-            style="background-color: #FECF9A"
+            style="background-color: #fecf9a6f"
             >
       <!-- Section: Social media -->
       <section
@@ -96,24 +149,13 @@
 
         <!-- Right -->
         <div>
-          <a href="" class="text-black me-4">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-          <a href="" class="text-black me-4">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="" class="text-black me-4">
-            <i class="fab fa-google"></i>
-          </a>
-          <a href="https://www.instagram.com/trapholtkunstmuseum/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" 
+          <a href="https://www.google.com/search?client=opera-gx&q=trapholt&sourceid=opera&ie=UTF-8&oe=UTF-8" 
               class="text-black me-4">
-            <i class="fab fa-instagram"></i>
+            <i class="fa fa-google"></i>
           </a>
-          <a href="" class="text-black me-4">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="" class="text-black me-4">
-            <i class="fab fa-github"></i>
+          <a href="https://www.instagram.com/trapholt_examproject/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" 
+              class="text-black me-4">
+            <i class="fa fa-instagram"></i> 
           </a>
         </div>
         <!-- Right -->
@@ -133,9 +175,7 @@
                   class="mb-4 mt-0 d-inline-block mx-auto"
                   style="width: 60px; background-color: #5e5e5e; height: 2px"
                   />
-              <p>
-                This is where the logo is supposed to be. Let me know if you guys have a final one.
-              </p>
+              <img src="images/Logo3.png" class="rounded float-start footerimg" alt="" >
             </div>
             <!-- Grid column -->
 
@@ -152,16 +192,13 @@
                 <a href="aboutus.html" class="text-black">About Us</a>
               </p>
               <p>
-                <a href="#!" class="text-black">Contact</a>
-              </p>
-              <p>
                 <a href="#!" class="text-black">Events</a>
               </p>
               <p>
                 <a href="#!" class="text-black">Visitor Hours</a>
               </p>
               <p>
-                <a href="#!" class="text-black">Cafeteria Information</a>
+                <a href="aboutus.html" class="text-black">Cafeteria Information</a>
               </p>
             </div>
             <!-- Grid column -->
@@ -191,9 +228,9 @@
                   class="mb-4 mt-0 d-inline-block mx-auto"
                   style="width: 60px; background-color: #7c4dff; height: 2px"
                   />
-              <p><i class="fas fa-home mr-3"></i> Æblehaven 23, DK-6000 Kolding</p>
-              <p><i class="fas fa-envelope mr-3"></i> kunstmuseum@trapholt.dk</p>
-              <p><i class="fas fa-phone mr-3"></i> +45 76 30 05 30</p>
+              <p><i class=" mr-3"></i> Æblehaven 23, DK-6000 Kolding</p>
+              <p><i class=" mr-3"></i> kunstmuseum@trapholt.dk</p>
+              <p><i class=" mr-3"></i> +45 76 30 05 30</p>
             </div>
             <!-- Grid column -->
           </div>
@@ -214,6 +251,5 @@
       </div>
       <!-- Copyright -->
     </footer>
-        </footer>
   </body>
 </html>
