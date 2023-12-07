@@ -111,3 +111,22 @@
 	max-width: 80%;
 	height: auto;
 }
+
+
+.fa {
+	padding: 1px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.fa-instagram {
+	/* background: #3B5998; */
+	color: white;
+  }
+
+.fa-google{
+	/* background: #3B5998; */
+	color: white;
+}
