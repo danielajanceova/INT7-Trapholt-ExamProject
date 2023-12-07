@@ -7,7 +7,12 @@
 .navbar{
 	padding: 0.1% !important;
 	font-size: small !important;
-	background-color: #B41F27da !important;
+	background-color: #b41f26 !important;
+}
+
+.navalign{
+	display: flex;
+	align-items:baseline;
 }
 
 .navbar-brand{
@@ -22,9 +27,11 @@
 	padding-top: 5%;
 }
 
+
 .ticketbtn{
 	background-color: #323C98;
 	color: white;
+	
 }
 
 .ticketbtn:hover {
