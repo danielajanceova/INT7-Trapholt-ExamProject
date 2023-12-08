@@ -71,69 +71,41 @@
 }
 
 
+/* ABOUT US CHECKERBOARD */
 
-/* TICKET PAGE */
+.checkerboardaboutus {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 4%;
+	margin-right: 4%;
+  }
 
-.eventcards{
-	/* background-color: #fecf9a6f; */
-	padding: 5%;
-}
-
-.ticketheader{
+  .checkerboardaboutus > div {
+	box-sizing: border-box;
+	width: 50%;
+	padding: 20px;
 	text-align: center;
-	margin: 3%;
-}
+  }
 
-.cardcolums{
-	margin-left: 5%;
-	margin-right: 5%;
-}
+  .pictureaboutus {
+	background-color: #fff;
+  }
 
-.card{
-	/* margin-bottom: 10% !important; */
-	
-}
-.ticketcard{
-	display: flex !important;
-	justify-content: space-between;
-}
+  .textaboutus {
+	background-color: #fecf9a6f;
+	border-radius: 1%;
+  }
 
-
-/* ABOUT PAGE */
-
-
-.museumheader{
-	padding: 1%;
-	text-align:left
-}
-
-.section1{
-	display: flex;
-	align-items: center;
-}
-
-.aboutmuseumtext{
-	padding: 1%;
-}
-
-.aboutimg{
-	max-width: 15%;
+  img {
+	max-width: 50%;
 	height: auto;
-	margin-right: 1%;
-}
+  }
 
-.section2{
-	display: flex;
-}
-
-.aboutnannaimg{
-	max-width: 25%;
-	height: auto;
-	margin-left: 1%;
-}
-.aboutmuseumlist{
-	padding: 5%;
-}
+  @media (max-width: 768px) {
+	.checkerboard > div {
+	  width: 100%;
+	}
+  }
 
 
 /* VISITORS HOURS */
@@ -159,7 +131,7 @@
 }
 
 .cafeimg{
-	max-width: 50%;
+	max-width: 100%;
 	height: auto;
 }
 .cafeinfo1{
@@ -194,3 +166,100 @@
 	/* background: #3B5998; */
 	color: white;
 }
+
+
+/* CHECKERBOARD TICKETS */
+
+.museumheader{
+	text-align: center;
+}
+
+.checkerboard {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 800px;
+	width: 100%;
+	margin: auto;
+}
+
+.checkerboard .row {
+	display: flex;
+	width: 100%;
+}
+
+.checkerboard .cell {
+	flex: 1;
+	box-sizing: border-box;
+	background-color: #ffffff;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	text-align: center;
+	transition: transform 0.2s;
+}
+
+.checkerboard .cell:hover {
+	transform: scale(1.05);
+}
+
+.checkerboard img {
+	max-width: 100%;
+	height: auto;
+}
+
+.product-info {
+	padding: 20px;
+}
+
+.product-price {
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.buy-button {
+	display: inline-block;
+	margin-top: 10px;
+	padding: 8px 16px;
+	background-color: #323C98;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+.buy-button:hover {
+	background-color: #252d73;
+}
+
+
+/* ABOUT US CHECKERBOARD */
+
+.checkerboardaboutus {
+	display: flex;
+	flex-wrap: wrap;
+  }
+
+  .checkerboardaboutus > div {
+	box-sizing: border-box;
+	width: 50%;
+	padding: 20px;
+	text-align: center;
+  }
+
+  .pictureaboutus {
+	background-color: #fff;
+  }
+
+  .textaboutus {
+	background-color: #fecf9a6f;
+	border-radius: 1%;
+  }
+
+  img {
+	max-width: 50%;
+	height: auto;
+  }
+
+  @media (max-width: 768px) {
+	.checkerboard > div {
+	  width: 100%;
+	}
+  }

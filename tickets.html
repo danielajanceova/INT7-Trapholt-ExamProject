@@ -51,44 +51,50 @@
 	<main>
 		<p class="h1 museumheader">BUY A TICKET</p>
 		<!-- CARDS -->
-		<div class="row row-cols-1 row-cols-md-2 g-4 cardcolums">
-			<div class="col">
-			  <div class="card">
-				<img src="images/AdultTicket.png" class="card-img-top" alt="..." style="width: 50%;">
-				<div class="card-body ticketcard">
-				  <h5 class="card-title">130 DKK</h5>
-				  <button type="button" class="btn ticketbtn">Buy Now</button>
-				</div>
-			  </div>
-			</div>
-			<div class="col">
-			  <div class="card">
-				<img src="images/StudentTicket.png" class="card-img-top" alt="..." style="width: 50%;">
-				<div class="card-body ticketcard">
-				  <h5 class="card-title">65 DKK</h5>
-				  <button type="button" class="btn ticketbtn">Buy Now</button>
-				</div>
-			  </div>
-			</div>
-			<div class="col">
-			  <div class="card">
-				<img src="images/GroupTicket.png" class="card-img-top" alt="..." style="width: 50%;">
-				<div class="card-body ticketcard" >
-				  <h5 class="card-title">105 DKK per person</h5>
-				  <button type="button" class="btn ticketbtn">Buy Now</button>
-				</div>
-			  </div>
-			</div>
-			<div class="col">
-			  <div class="card">
-				<img src="images/KidsTicket.png" class="card-img-top" alt="..." style="width: 50%;">
-				<div class="card-body ticketcard">
-				  <h5 class="card-title">0 DKK</h5>
-				  <button type="button" class="btn ticketbtn">Buy Now</button>
-				</div>
-			  </div>
-			</div>
-		  </div>
+
+    <!-- Checkerboard code is from ChatGPT: https://chat.openai.com/share/5a13d076-cbbd-4365-a4da-63d4f9b521a7 -->
+    <div class="checkerboard">
+      <!-- Change the number of rows and cells as needed -->
+      <!-- You can also use JavaScript to generate this dynamically -->
+      <div class="row">
+          <div class="cell">
+              <div class="product-info">
+                  <img src="images/AdultTicket.png" alt="Product Image">
+                  <div class="product-price">DKK 130</div>
+                  <a href="#" class="buy-button">Buy Now</a>
+              </div>
+          </div>
+          <div class="cell">
+              <div class="product-info">
+                  <img src="images/StudentTicket.png" alt="Product Image">
+                  <div class="product-price">DKK 65</div>
+                  <a href="#" class="buy-button">Buy Now</a>
+              </div>
+          </div>
+          <!-- Add more cells as needed -->
+      </div>
+      <div class="row">
+          <div class="cell">
+              <div class="product-info">
+                  <img src="images/GroupTicket.png" alt="Product Image">
+                  <div class="product-price">DKK 105 kr. per person</div>
+                  <a href="#" class="buy-button">Buy Now</a>
+              </div>
+          </div>
+          <div class="cell">
+              <div class="product-info">
+                  <img src="images/KidsTicket.png" alt="Product Image">
+                  <div class="product-price">Free</div>
+                  <a href="#" class="buy-button">Buy Now</a>
+              </div>
+          </div>
+          <!-- Add more cells as needed -->
+      </div>
+      <!-- Add more rows as needed -->
+  </div>
+
+
+
 	</main>
 
 
