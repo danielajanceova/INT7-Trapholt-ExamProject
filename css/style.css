@@ -96,7 +96,7 @@
 	border-radius: 1%;
   }
 
-  img {
+	.aboutusimg {
 	max-width: 50%;
 	height: auto;
   }
@@ -228,38 +228,3 @@
 .buy-button:hover {
 	background-color: #252d73;
 }
-
-
-/* ABOUT US CHECKERBOARD */
-
-.checkerboardaboutus {
-	display: flex;
-	flex-wrap: wrap;
-  }
-
-  .checkerboardaboutus > div {
-	box-sizing: border-box;
-	width: 50%;
-	padding: 20px;
-	text-align: center;
-  }
-
-  .pictureaboutus {
-	background-color: #fff;
-  }
-
-  .textaboutus {
-	background-color: #fecf9a6f;
-	border-radius: 1%;
-  }
-
-  img {
-	max-width: 50%;
-	height: auto;
-  }
-
-  @media (max-width: 768px) {
-	.checkerboard > div {
-	  width: 100%;
-	}
-  }
