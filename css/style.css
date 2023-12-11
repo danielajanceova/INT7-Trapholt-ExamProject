@@ -56,7 +56,7 @@
 }
 
 .eventcards{
-	background-color: #fecf9a6f;
+
 	padding: 3%;
 }
 
@@ -72,7 +72,7 @@
 }
 
 .nannainfo{
-	/* background-color: #fecf9a6f; */
+	background-color: #fecf9a6f;
 	display: flex;
 	align-items: center;
 	padding: 3%;
