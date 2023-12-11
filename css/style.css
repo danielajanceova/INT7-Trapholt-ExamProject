@@ -10,10 +10,11 @@
 	background-color: #b41f26 !important;
 }
 
-.navalign{
+/* .navalign{
 	display: flex;
 	align-items:baseline;
-}
+} */
+
 
 .navbar-brand{
 	color: white !important;
@@ -27,11 +28,13 @@
 	padding-top: 5%;
 }
 
+.navbar-text{
+	align-items: flex-end;
+}
 
 .ticketbtn{
 	background-color: #323C98;
-	color: white;
-	
+	color: white;;
 }
 
 .ticketbtn:hover {
@@ -40,6 +43,14 @@
   }
 
 /* HOME PAGE */
+
+.carousel{
+	margin-bottom: 3%;
+}
+
+.carousel-caption{
+	text-shadow: 1px 1px 1px #333 !important;
+}
 
 .deviderline{
 	text-align: center;
