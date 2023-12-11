@@ -243,7 +243,7 @@
 
 /* MERCH SHOP */
 
-.container {
+.merchshop {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 20px;
@@ -315,6 +315,6 @@ button {
 	cursor: pointer;
 }
 
-button:hover {
+/* button:hover {
 	background-color: #45a049;
-}
+} */
