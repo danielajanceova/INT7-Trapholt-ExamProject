@@ -241,21 +241,7 @@
 }
 
 
-/* MERCHTRYOUT */
-
-body {
-	font-family: Arial, sans-serif;
-	margin: 0;
-	padding: 0;
-	background-color: #f4f4f4;
-}
-
-header {
-	background-color: #333;
-	color: #fff;
-	text-align: center;
-	padding: 1em;
-}
+/* MERCH SHOP */
 
 .container {
 	max-width: 1200px;
