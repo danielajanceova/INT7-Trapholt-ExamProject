@@ -341,3 +341,72 @@ button {
 /* button:hover {
 	background-color: #45a049;
 } */
+
+
+
+
+
+.first-row{
+margin: 0%;
+	background-color: rgb(244, 220, 141);
+    
+}
+
+
+.tshirt-row{
+	background-color: rgb(228, 124, 103);
+	padding: 30px;	
+}
+.totebags-row{
+    background-color: rgb(244, 220, 141);
+	padding: 30px;
+}
+
+.mugs-row{
+	background-color: rgb(228, 124, 103);
+	padding: 30px;
+}
+
+
+
+
+
+.all-cards{
+    align-items: center;
+    justify-content: baseline;
+    cursor: pointer;
+}
+    .all-cards:hover{
+    background-color: rgb(243, 188, 188);
+    }
+.col-md-3{
+    margin: 70px;
+    justify-content: center;
+    align-items: center;
+
+}
+   
+
+.col-sm-3{
+    margin: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 18;
+    cursor: pointer;
+
+}
+.second-text{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.text-merch{
+    font-size: 90px;
+    color: rgb(159, 13, 13);
+	font-weight: bold;
+
+}
