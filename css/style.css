@@ -36,36 +36,38 @@
 }
 
 .ticketbtn{
-	background-color: #323C98;
-	color: white;;
+	background-color: #fff;
+	color: black;;
 }
 
 .ticketbtn:hover {
-	background-color: #252d73;
-	color: white;
+	background-color: #fff8f0;
+	color: black;
   }
 
+
+
 /* HOME PAGE */
-
-
 .carousel-caption{
 	text-shadow: 1px 1px 1px #333 !important;
 }
 
 .eventcards{
-
-	padding: 3%;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-bottom: 1%;
+	padding-top: 1%;
 }
 
 .deviderline{
 	text-align: center;
-	margin-top: -5%;
+	margin-top: -3%;
 }
 
 .deviderlineimg{
 	max-width: 80%;
 	height: auto;
-	/* margin-bottom: 3%; */
+	margin-top: 3%;
 }
 
 .nannainfo{
@@ -195,6 +197,7 @@
 
 .museumheader{
 	text-align: center;
+	margin-top: 2%;
 }
 
 .checkerboard {
@@ -283,16 +286,6 @@
     background-color: rgb(228, 124, 103);
 }
 
-
-.card{
-    align-items: center;
-    justify-content: baseline;
-    cursor: pointer;
-}
-
-.card:hover{
-    background-color: rgb(243, 188, 188);
-    }
 
 .col-md-3{
     margin: 70px;
