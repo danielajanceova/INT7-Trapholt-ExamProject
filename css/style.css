@@ -36,26 +36,28 @@
 }
 
 .ticketbtn{
-	background-color: #fff;
-	color: black;;
+	background-color: #323C98;
+	color: white;;
 }
 
 .ticketbtn:hover {
-	background-color: #cdcccc;
-	color: black;
+	background-color: #252d73;
+	color: white;
   }
 
 /* HOME PAGE */
 
-
+.carousel{
+	/* margin-bottom: 3%; */
+}
 
 .carousel-caption{
 	text-shadow: 1px 1px 1px #333 !important;
 }
 
 .eventcards{
-	padding-left: 5%;
-	padding-right: 5%;
+
+	padding: 3%;
 }
 
 .deviderline{
@@ -66,7 +68,7 @@
 .deviderlineimg{
 	max-width: 80%;
 	height: auto;
-	margin-top: 5%;
+	/* margin-bottom: 3%; */
 }
 
 .nannainfo{
@@ -74,31 +76,17 @@
 	display: flex;
 	align-items: center;
 	padding: 3%;
-	z-index: 1;
-	position: relative;
 }
 
 .nannaimage{
 	max-width: auto;
 	height: auto;
 	padding: 20px;
-	z-index: 1;
 }
 .nannatext{
 	/* background-color: rgb(101, 101, 101); */
 	text-align: left;
 	padding: 5%;
-	z-index: 1;
-}
-
-.chair{
-	opacity: 15%;
-	z-index: 0;
-	position: absolute;
-	right: 5%;
-	max-width: 20%;
-	height: auto;
-
 }
 
 
@@ -125,8 +113,6 @@
   .textaboutus {
 	background-color: #fecf9a6f;
 	border-radius: 1%;
-	text-align: center !important;
-	padding-top: 4% !important;
   }
 
 	.aboutusimg {
@@ -205,7 +191,6 @@
 
 .museumheader{
 	text-align: center;
-	padding: 10px;
 }
 
 .checkerboard {
@@ -380,14 +365,15 @@ button {
     justify-content: baseline;
     cursor: pointer;
 }
-    .card:hover{
+
+.card:hover{
     background-color: rgb(243, 188, 188);
     }
+
 .col-md-3{
     margin: 70px;
     justify-content: center;
     align-items: center;
-
 }
    
 
@@ -398,8 +384,8 @@ button {
     margin-left: 15%;
     margin-right: 18;
     cursor: pointer;
-
 }
+
 .second-text{
     font-size: 50px;
     font-weight: bold;
