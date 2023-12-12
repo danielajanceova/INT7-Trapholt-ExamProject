@@ -332,10 +332,7 @@ button {
 
 
 .first-row{
-
-    display: flex;
-    box-sizing: border-box;
-    flex-wrap: nowrap;
+margin: 0%;
 	background-color: rgb(244, 220, 141);
     
 }
@@ -343,29 +340,28 @@ button {
 
 .tshirt-row{
 	background-color: rgb(228, 124, 103);
+	padding: 30px;	
 }
 .totebags-row{
     background-color: rgb(244, 220, 141);
+	padding: 30px;
 }
 
 .mugs-row{
 	background-color: rgb(228, 124, 103);
-}
-.second-row{
-    background-color: rgb(244, 220, 141);
-}
-
-.third-row{
-    background-color: rgb(228, 124, 103);
+	padding: 30px;
 }
 
 
-.card{
+
+
+
+.all-cards{
     align-items: center;
     justify-content: baseline;
     cursor: pointer;
 }
-    .card:hover{
+    .all-cards:hover{
     background-color: rgb(243, 188, 188);
     }
 .col-md-3{
@@ -394,8 +390,8 @@ button {
 
 
 .text-merch{
-	justify-content: center;
-    margin-top: 80px;
     font-size: 90px;
     color: rgb(159, 13, 13);
+	font-weight: bold;
+
 }
