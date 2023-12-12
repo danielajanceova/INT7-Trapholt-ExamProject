@@ -36,13 +36,13 @@
 }
 
 .ticketbtn{
-	background-color: #323C98;
-	color: white;;
+	background-color: #fff;
+	color: black;;
 }
 
 .ticketbtn:hover {
-	background-color: #252d73;
-	color: white;
+	background-color: #cdcccc;
+	color: black;
   }
 
 /* HOME PAGE */
