@@ -166,11 +166,19 @@
 .cafeinfo2{
 	padding: 1%;
 }
+
+
 /* FOOTER */
+
+.imgdiv{
+	position: relative;
+}
 
 .footerimg{
 	max-width: 80%;
 	height: auto;
+	position: absolute;
+	top: -80px;
 }
 
 
