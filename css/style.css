@@ -15,6 +15,9 @@
 	align-items:baseline;
 } */
 
+.burber ul li a{
+	font-size: large;
+}
 
 .navbar-brand{
 	color: white !important;
@@ -45,11 +48,16 @@
 /* HOME PAGE */
 
 .carousel{
-	margin-bottom: 3%;
+	/* margin-bottom: 3%; */
 }
 
 .carousel-caption{
 	text-shadow: 1px 1px 1px #333 !important;
+}
+
+.eventcards{
+
+	padding: 3%;
 }
 
 .deviderline{
@@ -241,23 +249,9 @@
 }
 
 
-/* MERCHTRYOUT */
+/* MERCH SHOP */
 
-body {
-	font-family: Arial, sans-serif;
-	margin: 0;
-	padding: 0;
-	background-color: #f4f4f4;
-}
-
-header {
-	background-color: #333;
-	color: #fff;
-	text-align: center;
-	padding: 1em;
-}
-
-.container {
+.merchshop {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 20px;
@@ -329,6 +323,79 @@ button {
 	cursor: pointer;
 }
 
-button:hover {
+/* button:hover {
 	background-color: #45a049;
+} */
+
+
+
+
+
+.first-row{
+
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+	background-color: rgb(244, 220, 141);
+    
+}
+
+
+.tshirt-row{
+	background-color: rgb(228, 124, 103);
+}
+.totebags-row{
+    background-color: rgb(244, 220, 141);
+}
+
+.mugs-row{
+	background-color: rgb(228, 124, 103);
+}
+.second-row{
+    background-color: rgb(244, 220, 141);
+}
+
+.third-row{
+    background-color: rgb(228, 124, 103);
+}
+
+
+.card{
+    align-items: center;
+    justify-content: baseline;
+    cursor: pointer;
+}
+    .card:hover{
+    background-color: rgb(243, 188, 188);
+    }
+.col-md-3{
+    margin: 70px;
+    justify-content: center;
+    align-items: center;
+
+}
+   
+
+.col-sm-3{
+    margin: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 18;
+    cursor: pointer;
+
+}
+.second-text{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.text-merch{
+	justify-content: center;
+    margin-top: 80px;
+    font-size: 90px;
+    color: rgb(159, 13, 13);
 }
