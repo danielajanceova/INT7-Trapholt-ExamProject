@@ -47,17 +47,15 @@
 
 /* HOME PAGE */
 
-.carousel{
-	/* margin-bottom: 3%; */
-}
+
 
 .carousel-caption{
 	text-shadow: 1px 1px 1px #333 !important;
 }
 
 .eventcards{
-
-	padding: 3%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 .deviderline{
@@ -76,17 +74,31 @@
 	display: flex;
 	align-items: center;
 	padding: 3%;
+	z-index: 1;
+	position: relative;
 }
 
 .nannaimage{
 	max-width: auto;
 	height: auto;
 	padding: 20px;
+	z-index: 1;
 }
 .nannatext{
 	/* background-color: rgb(101, 101, 101); */
 	text-align: left;
 	padding: 5%;
+	z-index: 1;
+}
+
+.chair{
+	opacity: 15%;
+	z-index: 0;
+	position: absolute;
+	right: 5%;
+	max-width: 20%;
+	height: auto;
+
 }
 
 
@@ -113,6 +125,8 @@
   .textaboutus {
 	background-color: #fecf9a6f;
 	border-radius: 1%;
+	text-align: center !important;
+	padding-top: 4% !important;
   }
 
 	.aboutusimg {
@@ -191,6 +205,7 @@
 
 .museumheader{
 	text-align: center;
+	padding: 10px;
 }
 
 .checkerboard {
